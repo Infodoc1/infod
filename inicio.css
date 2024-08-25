@@ -1,0 +1,44 @@
+/* styles.css */
+.img-logo {
+    max-width: 100%; /* La imagen no excederá el ancho de su contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    padding: 0; /* Elimina padding que podría afectar el layout */
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho total */
+    margin-top: 50px
+}
+
+/* Opcional: Ajustar padding en dispositivos más grandes */
+@media (min-width: 768px) {
+    .img-logo {
+        padding: 20px; /* Ajusta el padding en pantallas más grandes si es necesario */
+    }
+}
+
+/* Opcional: Ajustar padding en pantallas muy grandes */
+@media (min-width: 1200px) {
+    .collage {
+        padding: 30px; /* Ajusta el padding en pantallas aún más grandes si es necesario */
+    }
+    
+}
+.collage {
+    max-width: 100%; /* La imagen no excederá el ancho de su contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    padding: 0; /* Elimina padding que podría afectar el layout */
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho total */
+    margin-top: 30px
+}
+
+/* Opcional: Ajustar padding en dispositivos más grandes */
+@media (min-width: 768px) {
+    .collage {
+        padding: 20px; /* Ajusta el padding en pantallas más grandes si es necesario */
+    }
+}
+
+/* Opcional: Ajustar padding en pantallas muy grandes */
+@media (min-width: 1200px){
+    .collage {
+        padding: 30px; /* Ajusta el padding en pantallas aún más grandes si es necesario */
+    }
+}

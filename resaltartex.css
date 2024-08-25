@@ -1,0 +1,10 @@
+.resaltartex {
+    text-align: center; /* Centra el texto */
+    font-size: 1em; /* Aumenta el tamaño de la fuente */
+    font-weight: bold; /* Pone el texto en negrita */
+    color: #0c46e4; /* Color del texto blanco */
+    padding: 10px; /* Añade espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra suave */
+    margin: 10px 0; /* Añade espacio arriba y abajo del elemento */
+}
